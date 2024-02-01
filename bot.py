@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 TOKEN = "6333225235:AAFbjxLb1QS7zZIW4maMZ4-CtRNybDdH6ys"
 
-URL = "https://mirjaxon.pythonanywhere.com/"
 bot = telegram.Bot(TOKEN)
 
 @app.route('/',methods = ['POST'])
